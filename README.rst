@@ -55,3 +55,7 @@ FAQ
 ====
 1. Can't locate CGI.pm in @INC
      yum install perl-CGI
+2. open (/etc/collectd/collection.conf): 没有那个文件或目录
+	depend on the version of collectd: the config dir is locate at /etc/collectd.d/
+	touch /etc/collectd.d/collection.conf 
+	datadir: "/var/lib/collectd/rrd"
