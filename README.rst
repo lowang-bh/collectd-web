@@ -50,3 +50,8 @@ or later. The full licensing terms are available in the file "COPYING".
 This package includes jQuery which is licensed under the GPL version 2 and the
 MIT license. For more information on jQuery's license, visit their homepage at:
   <http://jquery.org/license>
+
+FAQ
+====
+1. Can't locate CGI.pm in @INC
+     yum install perl-CGI
